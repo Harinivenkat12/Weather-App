@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="action_settings">Settings</string>
+    <string name="temp_text"> 15 Deg</string>
+    <string name="wind_txt">Wind: </string>
+    <string name="cloud_txt">Cloud: </string>
+    <string name="pressure_txt">Pressure: </string>
+    <string name="humidity_txt">Humidity: </string>
+    <string name="rain_txt">Rain: </string>
+    <string name="sunrise_txt">Sunrise: </string>
+    <string name="sunset_txt">Sunset: </string>
+    <string name="last_updt_txt">Last Updated : </string>
+    <string name="change_city">CHANGE CITY</string>
+</resources>

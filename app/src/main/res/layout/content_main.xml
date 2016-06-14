@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#11246e"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="weatherapp.myandroid.achitu.weatherapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:id="@+id/imageViewId"
+        android:background="#fff"
+        android:layout_marginTop="5dp"
+        android:layout_height="90dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/cityTitleId"
+        android:layout_marginRight="15dp"
+        android:text="Fremont, CA, USA"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tempTextId"
+        android:text="@string/temp_text"
+        android:layout_below="@+id/cityTitleId"
+        android:layout_marginTop="10dp"
+        android:textSize="42sp"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/imageViewId"
+        android:layout_marginLeft="16dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/windTextId"
+        android:text="@string/wind_txt"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_below="@+id/imageViewId"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/cloudTextId"
+        android:text="@string/cloud_txt"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/windTextId"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/humidityTextId"
+        android:text="@string/humidity_txt"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/cloudTextId"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/pressureTextId"
+        android:text="@string/pressure_txt"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/humidityTextId"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/sunriseTextId"
+        android:text="@string/sunrise_txt"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/pressureTextId"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/sunsetTextId"
+        android:text="@string/sunset_txt"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/sunriseTextId"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/lastUpdatedTxtid"
+        android:text="@string/last_updt_txt"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sunsetTextId"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
